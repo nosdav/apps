@@ -1,6 +1,6 @@
 {
   "name": "nosdav-apps",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "nosdav apps",
   "main": "index.js",
   "scripts": {

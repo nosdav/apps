@@ -62,11 +62,27 @@
       .app-link:hover {
         background-color: #3e8e41;
       }
+      /* styles for the body and container are omitted for brevity */
+      .footer {
+        background-color: #f2f2f2;
+        padding: 10px;
+        font-size: 14px;
+        text-align: center;
+      }
+      .footer a {
+        color: #4caf50;
+        text-decoration: none;
+        margin: 0 5px;
+      }
+      .footer a:hover {
+        color: #3e8e41;
+      }
     </style>
   </head>
   <body>
     <div class="container">
       <h1>App Store</h1>
+
       <div class="app-grid">
         <div class="app">
           <div class="app-icon">
@@ -91,6 +107,18 @@
           <a href="/pastebin/"><button class="app-link">Go To App</button></a>
         </div>
       </div>
+    </div>
+    <div class="footer">
+      <div class="footer-links">
+        <a class="footer-link" href="/">Home</a>|
+        <a
+          target="_blank"
+          class="footer-link"
+          href="https://github.com/nosdav/apps/"
+          >Github</a
+        >
+      </div>
+      <div>Nosdav &copy; 2023</div>
     </div>
   </body>
 </html>
