@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>App Store</title>
+    <title>Nosdav App Store</title>
     <style>
       body {
         font-family: sans-serif;
@@ -77,12 +77,37 @@
       .footer a:hover {
         color: #3e8e41;
       }
+
+      /* styles for the body and container are omitted for brevity */
+      .navbar {
+        background-color: #333;
+        overflow: hidden;
+      }
+      .navbar a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+      .navbar a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+      .navbar a.active {
+        background-color: #333;
+        color: white;
+      }
     </style>
   </head>
   <body>
-    <div class="container">
-      <h1>App Store</h1>
+    <div class="navbar">
+      <a class="active" href="#">Nosdav App Store</a>
+    </div>
 
+    <div class="container">
       <div class="app-grid">
         <div class="app">
           <div class="app-icon">
@@ -108,9 +133,10 @@
         </div>
       </div>
     </div>
+
     <div class="footer">
       <div class="footer-links">
-        <a class="footer-link" href="/">Home</a>|
+        <a class="footer-link" href="/">Nosdav</a>|
         <a
           target="_blank"
           class="footer-link"
