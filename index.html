@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>App Store</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      h1 {
+        text-align: center;
+        margin-top: 0;
+      }
+      .app-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        grid-gap: 20px;
+        justify-items: center;
+      }
+      .app {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+      .app-icon {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-color: #f2f2f2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .app-icon img {
+        max-width: 80%;
+        max-height: 80%;
+      }
+      .app-name {
+        font-weight: bold;
+        margin-top: 10px;
+      }
+      .app-description {
+        margin-top: 5px;
+      }
+      .app-link {
+        margin-top: 10px;
+        background-color: #4caf50;
+        color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      .app-link:hover {
+        background-color: #3e8e41;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>App Store</h1>
+      <div class="app-grid">
+        <div class="app">
+          <div class="app-icon">
+            <img
+              src="https://images.unsplash.com/photo-1532139677426-43f0bedd6c1e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80"
+              alt="App icon"
+            />
+          </div>
+          <div class="app-name">Bookmarks</div>
+          <div class="app-description">A bookmark app.</div>
+          <a href="/bookmarks/"><button class="app-link">Go To App</button></a>
+        </div>
+        <div class="app">
+          <div class="app-icon">
+            <img
+              src="https://images.unsplash.com/photo-1455390582262-044cdead277a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1973&q=80"
+              alt="App icon"
+            />
+          </div>
+          <div class="app-name">Pastebin</div>
+          <div class="app-description">A pastebin app.</div>
+          <a href="/pastebin/"><button class="app-link">Go To App</button></a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

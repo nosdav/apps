@@ -1,0 +1,24 @@
+{
+  "name": "nosdav-apps",
+  "version": "0.0.1",
+  "description": "nosdav apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nosdav/apps.git"
+  },
+  "keywords": [
+    "nosdav",
+    "nostr",
+    "apps"
+  ],
+  "author": "Melvin Carvalho",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nosdav/apps/issues"
+  },
+  "homepage": "https://github.com/nosdav/apps#readme"
+}
